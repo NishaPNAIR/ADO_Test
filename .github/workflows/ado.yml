@@ -18,5 +18,5 @@ jobs:
           uses: Azure/pipelines@v1
           with:
             azure-devops-project-url: https://dev.azure.com/PK00795024/N2_Test_Automation
-            azure-pipeline-name: 'N2_Test_Automation(2)'
+            azure-pipeline-name: 'N2_Test_Automation'
             azure-devops-token: ${{ secrets.ADO }}
